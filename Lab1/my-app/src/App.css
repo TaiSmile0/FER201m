@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #308683;
 }
 
 .App-logo {
@@ -86,14 +87,6 @@ footer{
   padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .card{
   width: 80%;
   height: 80%;
