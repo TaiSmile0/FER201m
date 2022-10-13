@@ -1,0 +1,93 @@
+
+.logo{
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+@media only screen and (min-device-width:100px) and (max-device-width:600px) {
+  .logo{
+    margin-top: 3px;  
+    margin-left: 0px;   
+  }
+}
+.Title{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bolder;
+}
+.Subt{
+  font-size: 15px;
+  text-align: center;
+}
+.button1{
+  text-align: center;
+  padding-top: 3px;
+}
+.img_home{
+  width: 98%;
+  height: 98%;
+}
+.product-card{
+  width: 1200px;
+}
+.product-tumb{
+  text-align: center;
+}
+.product-tumb img{
+  width: 300px;
+  height: 450px;
+}
+.Contact{
+  margin-bottom: 20px;
+}
+.DTitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.detailb {
+  width: 98%;
+  margin-left: 5px;
+  background-color: #282c34;
+}
+
+.footer{
+  background-color: #d2d816;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);;
+  width: 100vw;
+  height: 123.52vmax;
+  z-index: 99;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.close{
+  color: white;
+  padding: 4px;
+}
+.head_detail{
+  text-align: center;
+}
+.card-content{
+  text-align: center;
+}
+

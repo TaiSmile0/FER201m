@@ -1,0 +1,116 @@
+
+.menu {
+  background-color: #56b51b;
+}
+
+img{
+  width: 60%;
+  height: 60%;
+}
+
+.logo{
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .logo{
+    margin-top: 3px;  
+    margin-left: 0px;   
+  }
+}
+.Title{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bolder;
+}
+.Subt{
+  font-size: 15px;
+  text-align: center;
+}
+.button1{
+  text-align: center;
+  padding-top: 3px;
+}
+.product-card{
+  width: 1200px;
+}
+.product-tumb{
+  text-align: center;
+}
+.product-tumb img{
+  width: 300px;
+  height: 450px;
+}
+.input-field col{
+  color: #282c34;
+}
+.DTitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.detailb {
+  width: 98%;
+  margin-left: 5px;
+  background-color: #282c34;
+}
+.Details_page{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #56b51b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  Left: 0px; 
+  Right: 0px;
+}
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);;
+  width: 100vw;
+  height: 118.185vmax;
+  z-index: 99;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.close{
+  color: white;
+  padding: 4px;
+}
+.head_detail{
+  text-align: center;
+}
+.card-content{
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+.container.contact_us{
+  background-color: rgb(215, 95, 95);
+  padding: 0px 10px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.teal.lighten-2{
+  background-color: #98e3dc !important6;
+}
+
