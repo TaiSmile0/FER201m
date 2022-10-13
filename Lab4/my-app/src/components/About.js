@@ -3,8 +3,7 @@ import { Container,TextInput, Textarea, Icon, Button,Card } from 'react-material
 export default function About() {
    const handleSubmit =(e)=> {
       e.preventDefault()
-    }
-  
+   }
    return (
       <div className='About'>
          <Container  >

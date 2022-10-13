@@ -51,9 +51,9 @@ img{
   text-align: center;
   font-weight: bold;
 }
-
-
-
+html{
+  position: relative;
+}
 .column{
   float: left;
   width: 33.33%;
@@ -76,7 +76,7 @@ img{
   background-color: #56b51b;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   position: absolute;
   bottom: 0px;
   Left: 0px; 
@@ -111,6 +111,6 @@ img{
   border-radius: 10px;
 }
 .teal.lighten-2{
-  background-color: #98e3dc !important6;
+  background-color: #98e3dc !important;
 }
 
